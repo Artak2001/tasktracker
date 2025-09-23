@@ -107,11 +107,14 @@ sudo systemctl enable apache2
 sudo systemctl enable mysql
 
 # MYSQL
+# MYSQL
 3. MySQL root пароль
 
-Войти в MySQL:
+Войти в MySQL: ( Без паролья )
+sudo mysql 
 
-sudo mysql
+Войти в MySQL: ( запросит пароль )
+mysql -u root -p
 
 В консоли: mysql
 
@@ -149,3 +152,4 @@ sudo rm /var/www/html/tasktracker/install.lock
 
 http://localhost/tasktracker/public/install.php
 http://localhost/tasktracker/public/
+
